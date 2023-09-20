@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Wedding Invitation</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Barlow'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Allura'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' integrity='sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==' crossorigin='anonymous' referrerpolicy='no-referrer'>
+    <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+  </head>
+  <body>
+    <header>
+      <div class='music'>
+        <audio src='https://onedrive.live.com/download?resid=8198F57125811AD1%21106&authkey=!AArzA19sFX_VKKg'></audio>
+        <button class='music-playing'>
+          <i class='fas fa-pause'></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class='cover-container'>
+        <article class='cover-content'>
+          <h5 class='w3-animate-opacity'>The Wedding of</h5>
+          <div>
+            <div class='w3-animate-opacity'>
+              <h1>Diqi & Tika</h1>
+              <hr />
+              <h4>25 ∘ 09 ∘ 23</h4>
+            </div>
+            <button id='openInvitationBtn'>Open Invitation</button>
+          </div>
+        </article>
+      </div>
+
+      <div class='invitation-container'>
+        <article class='home'>
+          <ul id='all_slides'>
+            <li class='slide active'></li>
+            <li class='slide'></li>
+            <li class='slide'></li>
+          </ul>
+          <blockquote>
+            <h1 class='w3-animate-zoom'>Diqi & Tika</h1>
+            <p class='w3-animate-opacity'>
+              Dan diantara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri,
+              supaya kamu cenderung dan merasa tentram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang.
+              Sesungguhnya pada demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.
+              <br /><br />
+              QS. Ar-Rum 30:21
+            </p>
+          </blockquote>
+        </article>
+
+        <article class='couple' id='couple'>
+          <div>
+            <section class='groom'>
+              <h4>THE GROOM</h4>
+              <div class='groom-name'>
+                <h1>Muhammad Assidiqi, S.T</h1>
+                <p>Son of:</p>
+                <p>Bpk. Syahar Mahunju, B.A &</p>
+                <p>Ibu Siti Nurbaya, S.Pd</p>
+              </div>
+            </section>
+            <section class='bride'>
+              <h4>THE BRIDE</h4>
+              <div class='bride-name'>
+                <h1>Noviantika Mega Gita</h1>
+                <p>Daughter of:</p>
+                <p>Bpk. Ngatna Sagita, S.Pd (alm.) &</p>
+                <p>Ibu Sakka Sagita</p>
+              </div>
+            </section>
+          </div>
+        </article>
+        
+        <article class='date' id='date'>
+          <div>
+            <h2>Event Will Be Orginized</h2>
+            <h4>Monday, September 25th, 2023</h4>
+          </div>
+          <div class='date-detail'>
+            <div>
+              <section class='marriage-contract'>
+                <h2>Marriage Contract</h2>
+                <div class='time'>
+                  <h4>Monday, September 25th, 2023</h4>
+                  <h4>At 10.00 - Finish</h4>
+                </div>
+                <h5>Gedung BBIH, Jl. Batu Bata Indah No. 17</h5>
+              </section>
+              <div><hr /></div>
+              <section class='Reception'>
+                <h2>Reception</h2>
+                <div class='time'>
+                  <h4>Monday, September 25th, 2023</h4>
+                  <h4>At 11.00 - Finish</h4>
+                </div>
+                <h5>Gedung BBIH, Jl. Batu Bata Indah No. 17</h5>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class='location' id='location'>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15957.205837123229!2d119.8824501!3d-0.9222585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf336c31f82236a5c!2sPia%20Cianni!5e0!3m2!1sid!2sid!4v1612187730062!5m2!1sid!2sid"
+              title="alamat-piacianni" 
+              height="300px"
+              width="100%"
+              style="border: 0;"
+              aria-hidden="false"
+              tabIndex="0"
+              allowFullScreen
+            ></iframe>
+            <button>See Location</button>
+          </div>
+        </article>
+
+        <article class='wishes' id='wishes'>
+          <h2>Wishes</h2>
+          <div class='wishes-list'>
+            <section class='wishes-item'>
+              <div class='wishes-item-avatar'>
+                <i class="fas fa-user"></i>
+              </div>
+              <div class='wishes-item-content'>
+                <h6>atan</h6>
+                <p>selamat ya..semoga acaranya lancar dan sukses. jadi keluarga yang samawa..</p>
+              </div>
+            </section>
+          </div>
+          <div class='wishes-form'>
+            <h4>Send A Wish</h4>
+            <form onsubmit='return false'>
+              <input type='text' placeholder='your name'>
+              <textarea placeholder='your wishes'></textarea>
+              <button>Send Now</button>
+            </form>
+          </div>
+        </article>
+        <article class='turut-mengundang'>
+          <div>
+            <h1>Diqi & Tika</h1>
+            <h6>Turut Mengundang:</h6>
+            <p>Drs. H. Zainal Abidin Syam, M.Si</p>
+            <p>Drs. H. Imam Sutarto</p>
+            <p>Suradji, S.E, M.M</p>
+            <p>AKBP H. Dwi Hari Harsono, S.H, M.H</p>
+            <p>Ir. Sutrisno</p>
+            <p>H. Zulfikar Is Paudi, S.Pd, M.Si</p>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <nav class='navigation'>
+          <ul class="nav-list">
+            <li><a href='#couple'>
+              <i class="far fa-heart"></i>
+              <span>Couple</span></a>
+            </li>
+            <li><a href='#date'>
+              <i class="far fa-calendar"></i>
+              <span>Date</span></a>
+            </li>
+            <li><a href='#location'>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Location</span></a>
+            </li>
+            <li><a href='#wishes'>
+              <i class="far fa-comment"></i>
+              <span>Wishes</span></a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer class='footer'>
+      <p>Powered With <span><i class='fas fa-heart'></i></span> by</p>
+      <h2>NFATHAN</h2>
+    </footer>
+    <script src='index.js'></script>
+  </body>
+</html>
