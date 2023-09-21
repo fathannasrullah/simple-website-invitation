@@ -5,6 +5,7 @@ const navigation = document.querySelector('.navigation')
 const footer = document.querySelector('.footer')
 const music = document.querySelector('.music')
 const audio = document.querySelector('audio');
+const aboutDeveloper = document.querySelector('.about-developer')
 
 // handle open-invitation button click
 openInvitationBtn.onclick = () => {
@@ -15,6 +16,7 @@ openInvitationBtn.onclick = () => {
   music.style.display = 'block'
   audio.volume = 0.2
   audio.play()
+  aboutDeveloper.style.display = 'flex'
 }
 
 // handle hide navigation based on scroll
@@ -140,4 +142,21 @@ musicBtn.onclick = () => {
     musicIcon.classList.remove('fa-pause')
     musicIcon.classList.add('fa-play')
   }
+}
+
+// handle show about developer
+const aboutDeveloperAvatar = document.querySelector('.about-developer img')
+const aboutDeveloperText = document.querySelector('.about-developer article')
+const closeBtn = document.querySelector('.about-developer button')
+
+aboutDeveloperAvatar.onclick = () => {
+  aboutDeveloperAvatar.style.display = 'none'
+  closeBtn.style.display = 'block'
+  aboutDeveloperText.style.display = 'block'
+}
+
+closeBtn.onclick = () => {
+  aboutDeveloperAvatar.style.display = 'block'
+  aboutDeveloperText.style.display = 'none'
+  closeBtn.style.display = 'none'
 }
