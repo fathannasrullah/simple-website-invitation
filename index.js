@@ -1,7 +1,7 @@
-const cover = document.querySelector('main .cover-container')
-const invitation = document.querySelector('main .invitation-container')
+const cover = document.querySelector('.cover-container')
+const invitation = document.querySelector('.invitation-container')
 const openInvitationBtn = document.getElementById('openInvitationBtn')
-const navigation = document.querySelector('main aside .navigation')
+const navigation = document.querySelector('.navigation')
 const footer = document.querySelector('.footer')
 const music = document.querySelector('.music')
 const audio = document.querySelector('audio');
