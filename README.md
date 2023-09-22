@@ -1,3 +1,10 @@
+## Introduction 
+
+This is a wedding invitation website. I created this project for practice my HTML semantic concepts
+
+[View Demo](https://fathannasrullah.github.io/simple-website-invitation)
+
+
 ## Installation
 1. I used [http-server](https://www.npmjs.com/package/http-server) (a simple static HTTP server) for running website at local development
 
